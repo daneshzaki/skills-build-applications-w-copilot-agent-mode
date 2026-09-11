@@ -46,5 +46,9 @@ h2 { font-size: 20px; letter-spacing: -.7px; margin-bottom: 0; }
 .run { background: #dcefeb; color: #1d817c; }.lift { background: #f9e5df; color: #e36b52; }.walk { background: #f9edcf; color: #b17d22; }
 .activity-list div, .leader div { flex: 1; }.activity-list strong, .leader strong { display: block; font-size: 12px; }.activity-list small, .leader small { display: block; color: #929b96; font-size: 10px; margin-top: 3px; }.activity-list b { color: #66736d; font-size: 11px; }
 .team-panel { grid-column: 1 / -1; }.leader { padding: 11px 0; }.rank { color: #9ca8a2; font-size: 11px; width: 22px; }.avatar { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; color: white; font-size: 9px; font-weight: 800; }.coral { background: #e36b52; }.teal { background: #1d817c; }.gold { background: #d6a341; }.current { background: #f2f8f4; margin: 0 -12px; padding-left: 12px; padding-right: 12px; border-radius: 4px; }.up { color: #1d817c; font-size: 11px; font-weight: 800; }.steady { color: #a0aaa4; }
+.collection-list { margin-top: 20px; }
+.collection-item { display: flex; justify-content: space-between; gap: 20px; padding: 16px 0; border-top: 1px solid #edf0ed; }
+.collection-item strong { font-size: 13px; }
+.collection-item span { color: #7a8580; font-size: 12px; text-align: right; }
 @media (max-width: 760px) { .app-shell { padding: 0 18px 40px; }.topbar { height: 68px; } nav { gap: 14px; } nav a { font-size: 11px; } nav a.active::after { bottom: -24px; }.welcome { display: block; padding: 42px 0 28px; }.welcome .primary-button { margin-top: 24px; }.stat-grid { grid-template-columns: repeat(2, 1fr); }.stat-card { padding: 16px; min-height: 126px; }.content-grid { grid-template-columns: 1fr; }.team-panel { grid-column: auto; } }
 @media (max-width: 430px) { .brand span { display: none; } nav { margin-left: auto; margin-right: 14px; }.stat-grid { gap: 8px; }.stat-card strong { font-size: 25px; }.panel { padding: 19px; } }

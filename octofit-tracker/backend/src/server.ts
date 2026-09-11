@@ -11,7 +11,7 @@ const apiPort = 8000;
 const port = Number(process.env.PORT) || apiPort;
 const codespaceName = process.env.CODESPACE_NAME;
 const apiBaseUrl = codespaceName
-  ? `https://${codespaceName}-${apiPort}.app.github.dev`
+  ? `https://${codespaceName}-8000.app.github.dev`
   : `http://localhost:${port}`;
 
 app.use(express.json());
